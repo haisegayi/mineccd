@@ -1,9 +1,6 @@
 # Core libraries
 requests>=2.31.0
 cloudscraper>=1.2.71
-
-# Network/Socket modules
-socks>=1.0.4
 PySocks>=1.7.1
 scapy
 icmplib
