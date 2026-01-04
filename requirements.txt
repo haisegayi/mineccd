@@ -1,0 +1,17 @@
+# Core libraries
+requests>=2.31.0
+cloudscraper>=1.2.71
+
+# Network/Socket modules
+socks>=1.0.4
+PySocks>=1.7.1
+scapy
+icmplib
+# Optional dependencies (thường có sẵn trong Python)
+# socket, threading, time, random, struct, os, sys, ssl
+# là built-in modules, không cần cài qua pip
+
+# Các thư viện phổ biến khác (nếu cần)
+# flask>=3.0.0  # Nếu dùng web server
+# discord.py>=2.3.0  # Nếu làm Discord bot
+# python-telegram-bot>=20.3  # Nếu làm Telegram bot
