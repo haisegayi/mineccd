@@ -4,6 +4,7 @@ cloudscraper>=1.2.71
 PySocks>=1.7.1
 scapy
 icmplib
+flask
 # Optional dependencies (thường có sẵn trong Python)
 # socket, threading, time, random, struct, os, sys, ssl
 # là built-in modules, không cần cài qua pip
